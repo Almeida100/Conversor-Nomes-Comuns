@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Conversor Nomes Comuns
+qgisMinimumVersion=3.16
+description=This plugin converts common names of tree species to their respective scientific names.
+version=0.1
+author=Antonio Sobral Almeida
+email=66124.almeida@gmail.com
+
+about=The user chooses a common name from a drop-down list, and the plugin creates two new fields (if they do not already exist), one for the common names and the other for the respective scientific names, and fills in these fields for all features, or only for the selected features. Common and scientific names were taken from listings published by the Portuguese Institute for the Conservation of Nature and Forests. O utilizador escolhe o nome comum numa lista drop-down, e o plugin cria dois novos campos (caso ainda não existam), um para os nomes comuns e o outro para os respectivos nomes científicos, e preenche estes campos para todos os elementos, ou só para os elementos seleccionados. Dados publicados pelo ICNF. Para correr o plugin: Processing -> Toolbox -> Conversores -> Conversor de Nomes Comuns. Consulte o Manual em: https://github.com/Almeida100/Conversor-Nomes-Comuns
+
+tracker=https://github.com/Almeida100/Conversor-Nomes-Comuns/issues
+repository=https://github.com/Almeida100/Conversor-Nomes-Comuns
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=yes
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=attribute, ecology, feature, landscape
+
+homepage=https://github.com/Almeida100/Conversor-Nomes-Comuns
+category=Analysis
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
